@@ -14,3 +14,5 @@ angular
   .module(app, ['ui.router'])
   .config(routesConfig)
   .component('app', hello);
+
+angular.bootstrap(document.body, ['app'], {strictDi: false});
